@@ -88,6 +88,7 @@ app.post('/api/shorturl', function(req, res) {
                 let newURL = new URLModel(resObj);
                 newURL.save();
                 res.json(resObj);
+                
                 }
             )
           }
